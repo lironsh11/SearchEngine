@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbSearchModelStoreContainer" CdmEntityContainer="DbSearchEntities">
+    <EntitySetMapping Name="SearchDetails">
+      <EntityTypeMapping TypeName="DbSearchModel.SearchDetail">
+        <MappingFragment StoreEntitySet="SearchDetails">
+          <ScalarProperty Name="SearchID" ColumnName="SearchID" />
+          <ScalarProperty Name="SearchString" ColumnName="SearchString" />
+          <ScalarProperty Name="SearchPath" ColumnName="SearchPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchResults">
+      <EntityTypeMapping TypeName="DbSearchModel.SearchResult">
+        <MappingFragment StoreEntitySet="SearchResults">
+          <ScalarProperty Name="ResultID" ColumnName="ResultID" />
+          <ScalarProperty Name="SearchID" ColumnName="SearchID" />
+          <ScalarProperty Name="SearchResults" ColumnName="SearchResults" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

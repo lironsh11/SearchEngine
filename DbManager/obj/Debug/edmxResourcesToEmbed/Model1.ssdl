@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbSearchModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SearchDetails">
+    <Key>
+      <PropertyRef Name="SearchID" />
+    </Key>
+    <Property Name="SearchID" Type="int" Nullable="false" />
+    <Property Name="SearchString" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SearchPath" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SearchResults">
+    <Key>
+      <PropertyRef Name="ResultID" />
+    </Key>
+    <Property Name="ResultID" Type="int" Nullable="false" />
+    <Property Name="SearchID" Type="int" Nullable="false" />
+    <Property Name="SearchResults" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="DbSearchModelStoreContainer">
+    <EntitySet Name="SearchDetails" EntityType="Self.SearchDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SearchResults" EntityType="Self.SearchResults" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

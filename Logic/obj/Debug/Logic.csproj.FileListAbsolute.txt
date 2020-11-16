@@ -1,0 +1,15 @@
+C:\Users\Chaim\Desktop\Project_3\Logic\bin\Debug\Logic.dll
+C:\Users\Chaim\Desktop\Project_3\Logic\bin\Debug\Logic.pdb
+C:\Users\Chaim\Desktop\Project_3\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\Chaim\Desktop\Project_3\Logic\obj\Debug\Logic.dll
+C:\Users\Chaim\Desktop\Project_3\Logic\obj\Debug\Logic.pdb
+C:\Users\Chaim\Desktop\Project\Logic\bin\Debug\Logic.dll
+C:\Users\Chaim\Desktop\Project\Logic\bin\Debug\Logic.pdb
+C:\Users\Chaim\Desktop\Project\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\Chaim\Desktop\Project\Logic\obj\Debug\Logic.dll
+C:\Users\Chaim\Desktop\Project\Logic\obj\Debug\Logic.pdb
+C:\Users\Chaim\Desktop\1\Logic\bin\Debug\Logic.dll
+C:\Users\Chaim\Desktop\1\Logic\bin\Debug\Logic.pdb
+C:\Users\Chaim\Desktop\1\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\Chaim\Desktop\1\Logic\obj\Debug\Logic.dll
+C:\Users\Chaim\Desktop\1\Logic\obj\Debug\Logic.pdb
